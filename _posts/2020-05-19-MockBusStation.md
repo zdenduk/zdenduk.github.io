@@ -2,7 +2,7 @@
 layout: post
 title: "Mock bus station"
 subtitle: "Simple desktop application in Java with JPA access to a PostgreSQL database"
-background: '/img/posts/RobocodeRobotCreator/header.png'
+background: ''
 tags: "Java,JPA,PostgreSQL,JavaFX"
 ---
 ## Background
