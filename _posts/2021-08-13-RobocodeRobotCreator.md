@@ -1,7 +1,9 @@
 ---
-layout: post title: "Mobile application for teaching programming"
+layout: post
+title: "Mobile application for teaching programming"
 subtitle: "Android application for block-based creation of Robocode robots"
-background: '/img/posts/RobocodeRobotCreator/header.png' tags: "Android, Java"
+background: '/img/posts/RobocodeRobotCreator/header.png'
+tags: "Android, Java"
 ---
 
 ## Background
