@@ -1,0 +1,21 @@
+I"·<h2 id="background">Background</h2>
+
+<p>This application is the result of my homework topic in the CTU Matlab course used for the CTU Formula Student team eForce.</p>
+
+<h3 id="installation--setup">Installation &amp; Setup</h3>
+
+<p>Run the driver_graph.m in Matlab.</p>
+
+<h3 id="application-overview">Application overview</h3>
+
+<p>Knowing how much more performance you could have produced in racing is an incredibly challenging task. But the truth is that maximizing performance is the whole point!</p>
+
+<p>This application aims to let people compare their driving data and enable them to extract more performance.</p>
+
+<h3 id="how-does-it-work">How does it work?</h3>
+
+<p>First, the lateral, longitudinal and speed data are combined, producing the G-G-V diagram. Then a minimum convex hull is constructed, using Matlab native function delaunayTriangulation. The user can then slice this hull at any speed, essentially producing a G-G diagram at that speed. This is calculated via the sliceDelaunay function, available <a href="https://www.mathworks.com/matlabcentral/fileexchange/56536-slicedelaunay">here</a>.</p>
+
+<h2 id="github-link"><a href="https://github.com/zdenduk/DriverData">GitHub link</a></h2>
+
+:ET
