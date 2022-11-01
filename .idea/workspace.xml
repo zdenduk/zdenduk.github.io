@@ -2,16 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f5f8df7-a58e-4ec5-bcb1-5f24407b5209" name="Changes" comment="favicon">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/zdenduk.github.io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/1a/0b28fd2c283cfe98d5337d3b9490cfa18e857d2046809918b89897b000c070" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/5c/7cd5929f18f1f362277a08df29b78bc1936086c85e5adc5f51dc87b29b85c3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/9e/644d899762f4766b529be2738b476459f7324a17156ee974382f440b47aae5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/be/3319918271a60b00ef79325df401e8365b9ca71eab977d26bbecf07a48160a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/be/7830558336495caec314dfab30124f026374eae030cb35eb6057042c699fdc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e1/1829b6589a6ffe055af1269d6e3b5363cbd8a2e515a9780cb7a839d9382f92" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/04/870664b4ff6cb4366bad49ef809851d334d64d5ec96b0cf9edbf47e0adb103" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/18/4668d16733fc0037fbe2dbc2092df01c4e6aed22f4437200d679698878b3a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/1a/0b28fd2c283cfe98d5337d3b9490cfa18e857d2046809918b89897b000c070" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/1a/fe3147d9485945771c30e12cee280a90b05a98c841d499f4c22de7405405a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/53/f1e132cfade91d1070aad14bc3524268b77084117ad6c3ff96c7dd7ea6f80b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/59/35412d8fd4a9da42bedd6820393ceef5f32864ce19e8ce42203233471b603c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/5c/7cd5929f18f1f362277a08df29b78bc1936086c85e5adc5f51dc87b29b85c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/61/df827495755b5b7c738784f01735c76daddbd5cc6aa6ff62fed28cb3c3a936" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/74/1a544f1391f12ac5f47f6560fc267f438a692df825fd61d273ab3e542a2809" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/7d/75cf83c668731d527379cd36c7f0198205ca575fb14c7f0b97a108c9cd81a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/87/db3101c741531e401b182c5b65c6e1b0d76ba5f956fd3169c119fbbcd7fe3b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/9e/644d899762f4766b529be2738b476459f7324a17156ee974382f440b47aae5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/ad/85d2a75f8980b3b0bf1dc30fd8a604b1d35163bd68daa97ee9d4347a675c71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/b7/6d3c1fab2be516d3b019447f841f3f2a6acdf4731c95a6a983487d58b07e7c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/be/3319918271a60b00ef79325df401e8365b9ca71eab977d26bbecf07a48160a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/be/7830558336495caec314dfab30124f026374eae030cb35eb6057042c699fdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/c0/c3e48047761bd9095f0285650911f66364f96f951071f78b6ab854fd7c5abf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e1/1829b6589a6ffe055af1269d6e3b5363cbd8a2e515a9780cb7a839d9382f92" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/f0/0de09551ca9e4eb60d8ec196c6152da1ea5a9be21e5d3fb9478dd142dfeab3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/f6/113f81552a8359d3687e0e36f8d4c9d1cdfa78675a991e5d45241c4b975dc5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-12-31-MazdaRX-7FC3S.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-12-31-MazdaRX-7FC3S.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-01-03-TFTstats.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-01-03-TFTstats.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg-post.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg-post_old.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,24 +55,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/posts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zdend\Documents\zdenduk.github.io\img\posts" />
       <recent name="C:\Users\zdend\Documents\zdenduk.github.io\_posts" />
       <recent name="C:\Users\zdend\Documents\zdenduk.github.io\img" />
       <recent name="C:\Users\zdend\Documents\zdenduk.github.io\img\posts\DriverData" />
       <recent name="C:\Users\zdend\Documents\zdenduk.github.io\img\posts\RobocodeRobotCreator" />
-      <recent name="C:\Users\zdend\Documents\zdenduk.github.io\img\posts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\zdend\Documents\zdenduk.github.io\img\posts\LOLEsportsData" />
+      <recent name="C:\Users\zdend\Documents\zdenduk.github.io\img\posts\MazdaRX-7FC3S" />
       <recent name="C:\Users\zdend\Documents\zdenduk.github.io\pdf" />
+      <recent name="C:\Users\zdend\Documents\zdenduk.github.io\img\posts\LOLEsportsData" />
       <recent name="C:\Users\zdend\Documents\zdenduk.github.io\assets\vendor\syntax-highlighting" />
       <recent name="C:\Users\zdend\Documents\zdenduk.github.io\img" />
-      <recent name="C:\Users\zdend\Documents\zdenduk.github.io\img\posts\TheFneuff" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,7 +94,10 @@
       <workItem from="1635781676094" duration="6195000" />
       <workItem from="1635911539160" duration="888000" />
       <workItem from="1635913729101" duration="500000" />
-      <workItem from="1662577825952" duration="1811000" />
+      <workItem from="1662577825952" duration="2948000" />
+      <workItem from="1667269333715" duration="2284000" />
+      <workItem from="1667271898004" duration="121000" />
+      <workItem from="1667272087412" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="Basic site config">
       <created>1633662822662</created>
