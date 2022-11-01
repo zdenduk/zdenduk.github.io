@@ -1,0 +1,75 @@
+I"<h2 id="background">Background</h2>
+
+<p>This application is the result of my homework topic in the CTU Programming in Java course.</p>
+
+<h3 id="installation--setup">Installation &amp; Setup</h3>
+
+<p>As this is an old project, make sure you are running it with Java 8.</p>
+
+<h3 id="application-overview">Application overview</h3>
+<p>Each level is described in an external file in JSON format. The game loads a list of player items from a file.  At the end of each level, the game saves the list of items in the same format. This is done via the GSON library.
+The method of fighting monsters is implemented within the game - AABB collisions are in place to ensure that the player takes damage when he and a monster collide.</p>
+
+<p>The hero is able to use the collected objects to interact with other objects (open the door with a key etc.).</p>
+
+<p>The application is implemented in Java with the addition of JavaFX for the frontend. The sprites are animated by cycling several images - how is shown in the code example below.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/**
+ * Represents animated image consisting of frames.
+ */</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">AnimatedImage</span> <span class="o">{</span>
+    <span class="c1">// assumes animation loops,</span>
+    <span class="c1">// each image displays for equal time</span>
+    <span class="kd">private</span> <span class="kd">transient</span> <span class="nc">Image</span><span class="o">[]</span> <span class="n">frames</span><span class="o">;</span>
+    <span class="kd">private</span> <span class="kt">double</span> <span class="n">duration</span><span class="o">;</span>
+    <span class="kd">private</span> <span class="kt">int</span> <span class="n">width</span><span class="o">,</span> <span class="n">height</span><span class="o">;</span>
+
+    <span class="kd">private</span> <span class="nc">String</span> <span class="n">spriteName</span><span class="o">;</span>
+    <span class="kd">private</span> <span class="kt">int</span> <span class="n">numberOfSpritesToAnimate</span><span class="o">;</span>
+
+    <span class="cm">/**
+     * Creates instance of AnimatedImage.
+     *
+     * @param spriteName               sprite url
+     * @param numberOfSpritesToAnimate of how many frames animation consists
+     * @param duration                 how long should one frame be displayed
+     * @param width                    width of sprite
+     * @param height                   height of sprite
+     */</span>
+    <span class="kd">public</span> <span class="nf">AnimatedImage</span><span class="o">(</span><span class="kd">final</span> <span class="nc">String</span> <span class="n">spriteName</span><span class="o">,</span> <span class="kt">int</span> <span class="n">numberOfSpritesToAnimate</span><span class="o">,</span> <span class="kt">double</span> <span class="n">duration</span><span class="o">,</span> <span class="kt">int</span> <span class="n">width</span><span class="o">,</span> <span class="kt">int</span> <span class="n">height</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">duration</span> <span class="o">=</span> <span class="n">duration</span><span class="o">;</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">width</span> <span class="o">=</span> <span class="n">width</span><span class="o">;</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">height</span> <span class="o">=</span> <span class="n">height</span><span class="o">;</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">spriteName</span> <span class="o">=</span> <span class="n">spriteName</span><span class="o">;</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">numberOfSpritesToAnimate</span> <span class="o">=</span> <span class="n">numberOfSpritesToAnimate</span><span class="o">;</span>
+        <span class="n">loadSprites</span><span class="o">(</span><span class="n">spriteName</span><span class="o">,</span> <span class="n">numberOfSpritesToAnimate</span><span class="o">);</span>
+    <span class="o">}</span>
+
+    <span class="cm">/**
+     * Loads images from source.
+     *
+     * @param spriteName sprite url
+     * @param number     of how many frames animation consists
+     */</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">loadSprites</span><span class="o">(</span><span class="kd">final</span> <span class="nc">String</span> <span class="n">spriteName</span><span class="o">,</span> <span class="kt">int</span> <span class="n">number</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">Image</span><span class="o">[]</span> <span class="n">frames</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Image</span><span class="o">[</span><span class="n">number</span><span class="o">];</span>
+        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">frames</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+            <span class="n">frames</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">PixelImage</span><span class="o">(</span><span class="n">spriteName</span> <span class="o">+</span> <span class="n">i</span> <span class="o">+</span> <span class="s">".png"</span><span class="o">,</span> <span class="n">width</span><span class="o">,</span> <span class="n">height</span><span class="o">);</span>
+        <span class="o">}</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">frames</span> <span class="o">=</span> <span class="n">frames</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="cm">/**
+     * @param time current time
+     * @return current frame in animation depending on time
+     */</span>
+    <span class="kd">public</span> <span class="nc">Image</span> <span class="nf">getFrame</span><span class="o">(</span><span class="kt">double</span> <span class="n">time</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kt">int</span> <span class="n">index</span> <span class="o">=</span> <span class="o">(</span><span class="kt">int</span><span class="o">)</span> <span class="o">((</span><span class="n">time</span> <span class="o">%</span> <span class="o">(</span><span class="n">frames</span><span class="o">.</span><span class="na">length</span> <span class="o">*</span> <span class="n">duration</span><span class="o">))</span> <span class="o">/</span> <span class="n">duration</span><span class="o">);</span>
+        <span class="k">return</span> <span class="n">frames</span><span class="o">[</span><span class="n">index</span><span class="o">];</span>
+    <span class="o">}</span>
+    <span class="o">...</span>
+</code></pre></div></div>
+
+<h2 id="github-link"><a href="https://github.com/zdenduk/TheFneuff">GitHub link</a></h2>
+
+:ET

@@ -1,0 +1,10 @@
+I"Ñ<h2 id="background">Background</h2>
+
+<p>This application is the result of my homework topic in the CTU Database Systems course.</p>
+
+<h3 id="installation--setup">Installation &amp; Setup</h3>
+<p>This project was run on the faculty PostgreSQL server, if you intend to run it yourself, you have to create your own server and setup connection in persistence.xml file.</p>
+
+<h2 id="github-link"><a href="https://github.com/zdenduk/MockBusStation">GitHub link</a></h2>
+
+:ET

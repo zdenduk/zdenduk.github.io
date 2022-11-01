@@ -1,0 +1,30 @@
+I"�<h2 id="background">Background</h2>
+<p>This application is the result of my homework topic in the CTU Implementation of User Interfaces course.</p>
+
+<h3 id="installation--setup">Installation &amp; Setup</h3>
+<ol>
+  <li>Create an account on <a href="https://developer.riotgames.com/">Riot Developer Portal</a> and generate your DEVELOPMENT API KEY.</li>
+  <li>In the API folder, replace the text in Key.txt with your key. Don’t worry, .gitignore already contains this file.</li>
+  <li>Build and run the application.</li>
+</ol>
+
+<h3 id="application-overview">Application overview</h3>
+<p>This application’s primary purpose is to look up a summoner and show his data, like his Teamfight Tactics profile and match history, in a user-friendly way (I mean hey, atleast it’s not a plain JSON file, I know it does not look too nice).
+It uses REST to get data from RiotAPI and is implemented in C#. As it is a WPF application, it follows the MVVM design pattern.</p>
+
+<p>Comparison between mock and actual implementation for each view can be seen below.</p>
+<h5 id="menu-view">Menu View</h5>
+<p><img src="/img/posts/TFTstats/menuviewDESIGN.png" alt="menuviewDESIGN" />
+<img src="/img/posts/TFTstats/menuviewIMPL.png" alt="menuviewIMPL" /></p>
+
+<h5 id="profile-view">Profile View</h5>
+<p><img src="/img/posts/TFTstats/profileviewDESIGN.png" alt="profileviewDESIGN" />
+<img src="/img/posts/TFTstats/profileviewIMPL.png" alt="profileviewIMPL" /></p>
+
+<h5 id="match-history-view">Match history view</h5>
+<p><img src="/img/posts/TFTstats/matchhistoryviewDESIGN.png" alt="matchhistoryviewDESIGN" />
+<img src="/img/posts/TFTstats/matchhistoryviewIMPL.png" alt="matchhistoryviewIMPL" /></p>
+
+<h2 id="github-link"><a href="https://github.com/zdenduk/TFTstats">GitHub link</a></h2>
+
+:ET
